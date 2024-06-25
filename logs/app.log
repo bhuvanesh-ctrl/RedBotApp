@@ -1,0 +1,26 @@
+2024-06-15 18:30:53,748 - root - INFO - Starting Flask application
+2024-06-15 18:30:53,764 - werkzeug - WARNING -  * Debugger is active!
+2024-06-15 18:30:53,772 - werkzeug - INFO -  * Debugger PIN: 138-795-144
+2024-06-15 18:30:59,212 - root - INFO - This is a placeholder function, preprocessing functions yet to be integrated.
+2024-06-15 18:30:59,213 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2024 18:30:59] "POST /preprocess HTTP/1.1" 200 -
+2024-06-15 18:33:19,061 - werkzeug - INFO -  * Detected change in 'D:\\RedBotApp\\myenv\\app.py', reloading
+2024-06-15 18:33:20,840 - root - INFO - Starting Flask application
+2024-06-15 18:33:20,840 - werkzeug - WARNING -  * Debugger is active!
+2024-06-15 18:33:20,856 - werkzeug - INFO -  * Debugger PIN: 138-795-144
+2024-06-15 18:33:31,731 - root - INFO - Starting Flask application
+2024-06-15 18:33:31,766 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-15 18:33:31,766 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-15 18:33:31,766 - werkzeug - INFO -  * Restarting with stat
+2024-06-15 18:33:32,168 - root - INFO - Starting Flask application
+2024-06-15 18:33:32,168 - werkzeug - WARNING -  * Debugger is active!
+2024-06-15 18:33:32,179 - werkzeug - INFO -  * Debugger PIN: 138-795-144
+2024-06-15 18:34:28,606 - root - INFO - This is a placeholder function, preprocessing functions yet to be integrated.
+2024-06-15 18:34:28,607 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2024 18:34:28] "POST /preprocess HTTP/1.1" 200 -
+2024-06-15 18:35:03,808 - root - INFO - File successfully uploaded to uploads\inspection_.pdf
+2024-06-15 18:35:03,809 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2024 18:35:03] "POST /uploadfile HTTP/1.1" 200 -
+2024-06-15 18:35:40,138 - werkzeug - INFO -  * Detected change in 'D:\\RedBotApp\\myenv\\app.py', reloading
+2024-06-15 18:35:40,167 - werkzeug - INFO -  * Restarting with stat
+2024-06-15 18:35:41,864 - root - INFO - Starting Flask application
+2024-06-15 18:35:41,870 - werkzeug - WARNING -  * Debugger is active!
+2024-06-15 18:35:41,880 - werkzeug - INFO -  * Debugger PIN: 138-795-144

@@ -1,0 +1,49 @@
+skeleton of the microservices
+build it such a way that we are scale it. 
+file upload service 
+categorize the files - inspection docs, tax docs etc
+add logging modules - logging module for base api is done
+mini cube 
+explore docker - will let you create services on different ports 
+logging - is important (import loggings)
+
+look into printing it to a log - see if i can print to a file 
+if user is marked as buyer 
+
+docker-docker communication 
+containerized soluntion, similar to vm, vm - emulate the hardware , nothing in the image will change, OS is same, version control is same, not lightweight. VM cannt be scaled 
+container can map multiple hosts
+AI- file uploading service- a separate container on a port, preprocessing service (bucketing, categorize, tag) - a separate container. 
+AI - how two docker container talk, that is running on the same host. lookup bridge networking of docker. 
+
+SPQ, AVID 
+
+
+For the creating separate container, i should be making separate folders for the microservice. Example : upload service and preprocess service and so on... 
+Why is this necessary? 
+
+--------------------------------------------
+Refactoring the application into two separate services, each running in its own Docker container, adheres to best practices in microservices architecture for several reasons:
+
+Modularity and Independence: Each microservice should ideally encapsulate a single business function or capability. By separating functionalities such as file upload and preprocessing into distinct services, you ensure that each service is independently deployable, scalable, and maintainable.
+
+Scalability: Different parts of your application may have different scaling requirements. For instance, if file uploads are more frequent than preprocessing tasks, you can scale the upload service independently without affecting the preprocess service.
+
+Fault Isolation: In a monolithic application where everything runs together, a fault or error in one part of the application can affect the entire application. With microservices, failures are contained within the scope of the service, minimizing impact on other services.
+
+Technology Flexibility: Different services may have different technology requirements or dependencies. Separating them allows each service to use the appropriate tools and frameworks without impacting others.
+
+Team Independence: Microservices allow different teams to work on different services concurrently, using their own technology stacks and development methodologies.
+
+Easier Maintenance: Each service has its own codebase and can be maintained independently. Changes or updates to one service don’t require redeploying the entire application.
+
+Resilience and Performance: Microservices can be optimized for specific tasks, improving overall application performance and resilience.
+
+In summary, refactoring into microservices promotes better separation of concerns, improves scalability and fault tolerance, allows for independent development and deployment, and enhances overall flexibility and maintainability of your application. These benefits justify the approach of splitting functionality into separate services rather than leaving them in a single containerized application.
+
+---------------------------------------------------------------
+
+
+
+
+

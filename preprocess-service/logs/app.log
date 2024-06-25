@@ -1,0 +1,8 @@
+2024-06-15 20:52:52,416 - root - INFO - Starting Flask application
+2024-06-15 20:52:52,436 - werkzeug - INFO -  * Restarting with stat
+2024-06-15 20:52:52,935 - root - INFO - Starting Flask application
+2024-06-15 20:52:52,950 - werkzeug - WARNING -  * Debugger is active!
+2024-06-15 20:52:52,958 - werkzeug - INFO -  * Debugger PIN: 138-795-144
+2024-06-15 20:52:52,986 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-06-15 20:52:52,986 - werkzeug - INFO -  * Running on http://10.250.252.27:5002/ (Press CTRL+C to quit)
